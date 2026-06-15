@@ -1,0 +1,35 @@
+name: "🐛 Bug Report"
+description: "File a structured bug report to help us resolve issues quickly."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for reporting a bug. Please fill out the form below."
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: "1. Go to...\n2. Click on...\n3. See error..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected Behavior"
+      placeholder: "What you expected to happen."
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: "Actual Behavior"
+      placeholder: "What actually occurred."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      placeholder: "OS: macOS, Browser: Chrome 120, Node: v20.10.0"
+    validations:
+      required: true

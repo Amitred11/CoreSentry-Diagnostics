@@ -1,0 +1,9 @@
+# Global owners
+* @org/core-maintainers
+
+# Specialized code ownership
+/src/frontend/ @org/frontend-team
+/src/components/ @org/frontend-team
+/src/backend/ @org/backend-team
+/docs/ @org/documentation-team
+/.github/workflows/ @org/devops-team
